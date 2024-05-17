@@ -18,3 +18,4 @@
 - resolve merge conflict
 - collaboration
 - contribution
+- github pages
