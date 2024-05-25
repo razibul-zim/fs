@@ -19,3 +19,12 @@
 - collaboration
 - contribution
 - github pages
+
+## 25/05/2024
+
+- git checkout -- . (undo from unstagging)
+- git reset HEAD . (undo from staging)
+- git reset -hard HEAD (undo from staging & unstaging)
+- git commit --amend (correcting the commit message & add new files)
+- git revert (commitID) (undo a commit)
+- git revert (commitID) + git push (reverting a pushed commit)
