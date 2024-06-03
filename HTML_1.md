@@ -28,3 +28,23 @@
    - element, content
    - Debugging
    - comment
+
+8. Headings, Paragraphs, Line breaks , horizontal rule
+
+9. Semantic HTML VS Non-Semantic HTML
+
+   - semantic tag - header, footer, main, form, table, section
+   - non-semantic tag - div, span
+
+10. Text formatting tags
+
+    - strong, del, em, mark, sup, sub
+
+11. List
+
+    - ordered list, unordered, definition, nested
+
+12. Link and Navigation
+
+    - absolut link vs relative link
+    - a tag, attributes: href, target, title
