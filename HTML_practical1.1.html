@@ -28,6 +28,7 @@
     <header id="About Me">
       <h1>Welcome to my portfolio</h1>
       <hr />
+      <img src="./Image/1.PNG" alt="Razibul Islam Zim" height="100" />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
         magnam, sequi dolorum, deserunt sit mollitia adipisci id distinctio
@@ -39,7 +40,7 @@
     <strong> normal Text </strong> <br />
     <em>normal Text</em> <br />
     <mark> normal Text</mark> <br />
-    <del> normal Text</del>
+    <del> normal Text</del> <br />
     (a+b)<sup>2</sup> <br />
     H<sub>2</sub>0
     <section id="Skill">
@@ -67,6 +68,28 @@
         <!--defination describe TAg-->
         <dd>HTML is a markup language</dd>
       </dl>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <td>JAVASCRIPT</td>
+            <td>Basic</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <section id="Projects">
       <h2>Projects:</h2>
@@ -78,6 +101,26 @@
     </section>
     <footer id="Contact">
       <h2>Contact</h2>
+      <form>
+        <!--For Form-->
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name " name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </form>
+      <p>Copyright reserved by &copy; Razibul Islam Zim</p>
+
       <!--absolut link -->
       <a target="_blank" href="https://github.com/razibul-zim"
         >My Github repo</a

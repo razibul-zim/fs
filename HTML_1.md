@@ -40,11 +40,27 @@
 
     - strong, del, em, mark, sup, sub
 
-11. List
+11. Entity
+
+12. List
 
     - ordered list, unordered, definition, nested
 
-12. Link and Navigation
+13. Link and Navigation
 
     - absolut link vs relative link
     - a tag, attributes: href, target, title
+
+14. Image
+
+    - img Tag
+
+15. Basic Table
+
+    - table Tag
+
+16. Basic Form
+
+    - Form Tag
+
+17. Deploy
