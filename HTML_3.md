@@ -1,0 +1,23 @@
+# Advanced HTML
+
+- more advanced form
+  - Input(color/range),datalist, fieldset (for grouping form),legend
+- web acessibility
+  - Axe dev tool chrome extention(for web accessibility)
+  - use semantic tag
+  - use lang attribute
+  - use heading tags in order (h1->h2->h3)
+  - use alt attribute for image
+  - use menaingful link image
+  - label (for) + input (id) {always same}
+  - meta tag : desc, keyword .
+- HTwebML5 API
+- HTML Templates and wed components
+- sources for symbles, icons, emojis, colors.
+  - https://symbl.cc/en/
+  - https://copychar.cc/
+  - https://fontawesome.com/icons
+  - https://colorhunt.co/palettes/popular
+  - https://unsplash.com/ (for image)
+- Learning resources
+  - https://htmldog.com/guides/html/

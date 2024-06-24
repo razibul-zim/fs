@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>🎭 Razibul Islam Zim 🎭</p>
+    <!--contact section-->
+    <section>
+      <form>
+        <!--fieldset-->
+        <fieldset>
+          <!--use legend tag for set name of specific fieldset-->
+          <legend>Personal Information</legend>
+          <div>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required />
+          </div>
+          <div>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required />
+          </div>
+          <div>
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="18"
+              max="54"
+              required
+            />
+          </div>
+        </fieldset>
+        <!--color form-->
+        <div>
+          <label for="color">Color:</label>
+          <input
+            type="color"
+            id="color"
+            name="color"
+            value="#ff0000"
+            required
+          />
+        </div>
+        <!--range-->
+        <div>
+          <label for="progress">Progress:</label>
+          <input
+            type="range"
+            id="progress"
+            name="progress"
+            min="0"
+            max="10"
+            value="2"
+            required
+          />
+        </div>
+        <!--datalist-->
+        <div>
+          <label for="Favourite">Favourite Programming:</label>
+          <input list="language" id="Favourite" name="Favourite" required />
+          <datalist id="language">
+            <option value="C"></option>
+            <option value="C++"></option>
+            <option value="python"></option>
+          </datalist>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+          <button type="clear">Clear</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
