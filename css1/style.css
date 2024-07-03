@@ -1,0 +1,66 @@
+/* css syntex
+selector{
+property:value;
+}*/
+
+/* Example: */
+header {
+  background-color: rgb(30, 223, 162);
+}
+
+/* element,tag selector */
+h2 {
+  background-color: green;
+}
+/*grouping selector*/
+
+section,
+footer {
+  background-color: blueviolet;
+}
+
+/*nested selector */
+
+nav > ul > li > a {
+  background-color: rgb(105, 187, 222);
+}
+
+/*universal selector */
+* {
+  color: rgb(224, 18, 18);
+}
+
+/* id selector */
+#link1 {
+  color: antiquewhite;
+}
+
+/* class selector */
+.skill_link {
+  background-color: black;
+  color: bisque;
+}
+
+/*pseudo class selector (:) */
+
+button:hover {
+  background-color: aqua;
+}
+
+/* css specificity */
+
+/* a = number of ids */
+
+/* b = number of class , pseudo class , attributes */
+
+/* c = number of element pseudo element */
+
+/*typography */
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  /*letter-spacing: 0.5rem;*/
+  word-spacing: 0.5rem;
+  text-decoration: none;
+}
