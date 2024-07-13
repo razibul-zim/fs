@@ -11,6 +11,15 @@
 
   - position
 
+    - static
+    - relative
+    - fixed
+      - always use:
+        [width:100%;
+        top:0%;]
+    - absolute
+    - sticky
+
   - Inline tag
     - p tag
   - block tag

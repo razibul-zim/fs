@@ -40,7 +40,6 @@ body {
   background-color: rgb(199, 186, 210);
   top: 0;
   position: sticky;
-  width: 100%;
 }
 
 nav > ul {
@@ -97,7 +96,6 @@ button {
 
   background-color: brown;
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
