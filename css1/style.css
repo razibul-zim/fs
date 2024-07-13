@@ -23,6 +23,7 @@ footer {
 
 nav > ul > li > a {
   background-color: rgb(105, 187, 222);
+  list-style: none;
 }
 
 /*universal selector */
